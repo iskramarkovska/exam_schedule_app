@@ -1,16 +1,20 @@
-# exam_schedule
+# Exam Schedule App
 
-A new Flutter project.
+Flutter application for managing final exam schedules.
 
-## Getting Started
+**Student ID:** 223065
 
-This project is a starting point for a Flutter application.
+## Demo
 
-A few resources to get you started if this is your first Flutter project:
+![App Demo](demo.gif)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
+- List of exams sorted chronologically
+- Different colors for past and future exams
+- Detailed exam view with countdown timer
+- Total exam count badge
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+```bash
+flutter run -d chrome
+```
